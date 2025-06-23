@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  width: 100px;
+  background-color: black;
+  color: white;
+  padding: 15px 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar-logo h1{
+    font-size: 35px;
+    color: white;
+}
+
+.navbar .navbar-logo .tec {
+    color: white;
+   
+}
+.navbar ul{
+    list-style: none;
+    gap: 25px;
+    display: flex;
+}
+
+.navbar ul li{
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    transition: 0,3s ease;
+}
+
+.navbar ul li a:hover {
+    color: darkgrey;
+}
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('bakery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .isi{
+    padding: 1.4rem 7%;
+    max-width: 50rem;
+
+}
+
+.isi h1{
+    margin-top: 1rem;
+    font-size: 45px;
+    color: black;
+}
+.isi p{
+    font-size: 10px;
+    color: black;
+    font-weight: 100;
+
+}
+.isi .cta{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0. 3rem;
+    color: black;
+    background-color: darkgoldenrod;
+    border-radius: 0. 2rem;
+}
+.isi a{
+    text-decoration: none;
+}
